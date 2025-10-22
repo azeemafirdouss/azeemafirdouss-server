@@ -12,7 +12,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const jwt = require("jsonwebtoken");
 const { authenticateToken } = require("./middleware");
-const Event = require('../models/eventModel');
+const Event = require('./models/eventModel');
 
 const app = express();
 
